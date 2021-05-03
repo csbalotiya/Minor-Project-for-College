@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#423E3E"
+    tools:context=".OtherFormulas">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="2sp"
+                android:background="#242343"
+                android:lineSpacingExtra="1sp"
+                android:padding="10sp"
+                android:text='\n
+                # Python \n
+                Examples of Arithmetic Operator\n
+a = 9\n
+b = 4\n\n
+
+# Addition of numbers\n
+add = a + b\n\n
+
+# Subtraction of numbers\n
+sub = a - b\n\n
+
+# Multiplication of number\n
+mul = a * b\n\n
+
+# Division(float) of number\n
+div1 = a / b\n\n
+
+# Division(floor) of number\n
+div2 = a // b\n\n
+
+# Modulo of both number\n
+mod = a % b\n\n
+
+# Power\n
+p = a ** b\n\n
+
+# print results\n
+print(add)\n
+print(sub)\n
+print(mul)\n
+print(div1)\n
+print(div2)\n
+print(mod)\n
+print(p)\n\n\n
+
+#Output --\n
+13\n
+5\n
+36\n
+2.25\n
+2\n
+1\n
+6561\n
+
+'
+                android:textColor="#77BF77"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
